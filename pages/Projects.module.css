@@ -1,0 +1,31 @@
+/* styles/Projects.module.css */
+
+.projectsContainer {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .projectsTitle {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .projectsList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .projectsList {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  
+  
+  
+  

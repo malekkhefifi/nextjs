@@ -1,0 +1,61 @@
+/* /components/Contact.module.css */
+
+/* Container to center the form */
+.formContainer {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;  /* White background for the form */
+    border-radius: 8px;  /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for a card-like effect */
+  }
+  
+  /* Add a class for the h1 title */
+  .formTitle {
+    text-align: center;  /* Center the title */
+    font-size: 2rem; /* Title size */
+    color: #333;  /* Dark text color */
+    margin-bottom: 20px;
+  }
+  
+  /* Style for input fields and textarea */
+  .inputField, .textareaField {
+    width: 100%;  /* Make fields take up the full width */
+    padding: 12px;
+    margin-bottom: 15px;  /* Space between the fields */
+    border: 1px solid #ddd;  /* Light grey border */
+    border-radius: 5px;  /* Rounded corners for inputs */
+    font-size: 16px;  /* Larger font size for readability */
+    box-sizing: border-box;  /* Prevents fields from overflowing */
+  }
+  
+  .textareaField {
+    height: 150px;  /* Set a height for the textarea */
+    resize: vertical;  /* Allow vertical resizing of the textarea */
+  }
+  
+  /* Submit button styles */
+  .submitButton {
+    padding: 12px 20px;
+    background-color: #f0a500; /* Bright orange button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;  /* Make the button take full width */
+  }
+  
+  .submitButton:hover {
+    background-color: #e07b00;  /* Darker orange on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .formContainer {
+      width: 90%;  /* Make form container narrower on smaller screens */
+      padding: 15px;
+    }
+  }
+  
